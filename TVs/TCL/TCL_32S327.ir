@@ -1,62 +1,75 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: Power_1
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 17 E8 00 00
 # 
-name: Vol_up
+name: Power_2
 type: parsed
-protocol: NECext
-address: EA C7 00 00
-command: 0F F0 00 00
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
 # 
-name: Vol_dn
+name: Power_4
 type: parsed
-protocol: NECext
-address: EA C7 00 00
-command: 10 EF 00 00
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
 # 
-name: Enter
+name: Power_5
 type: parsed
 protocol: NECext
 address: EA C7 00 00
-command: 2A D5 00 00
+command: 17 E8 00 00
 # 
-name: Up
+name: Power_6
 type: parsed
-protocol: NECext
-address: EA C7 00 00
-command: 19 E6 00 00
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
 # 
-name: Down
+name: Power_7
 type: parsed
-protocol: NECext
-address: EA C7 00 00
-command: 33 CC 00 00
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
 # 
-name: Right
+name: Power_8
 type: parsed
 protocol: NECext
 address: EA C7 00 00
-command: 2D D2 00 00
+command: 17 E8 00 00
 # 
-name: Left
+name: Power_9
 type: parsed
 protocol: NECext
 address: EA C7 00 00
-command: 1E E1 00 00
+command: 97 68 00 00
+#
+name: Power_10
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
 # 
-name: Home
+name: Power_11
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+#
+name: Power_12
 type: parsed
 protocol: NECext
 address: EA C7 00 00
-command: 03 FC 00 00
+command: 17 E8 00 00
 # 
-name: Exit
+name: Power_13
 type: parsed
 protocol: NECext
 address: EA C7 00 00
-command: 66 99 00 00
+command: 17 E8 00 00
+# 
