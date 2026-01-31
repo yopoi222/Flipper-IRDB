@@ -1,7 +1,14 @@
-Filetype: IR signals file
-Version: 1
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
 # 
-# Hisense U7G TV
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
 #
 name: Power
 type: parsed
@@ -9,146 +16,69 @@ protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: Input
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: 0B 00 00 00
+command: 08 00 00 00
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
 # 
-name: Menu
+name: Powa
 type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 4A 00 00 00
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
 # 
-name: Back
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9021 4377 655 452 654 452 654 1567 654 453 653 453 653 453 652 454 651 455 651 1568 654 1569 653 455 651 1570 652 1570 652 1570 652 1571 651 1572 649 480 626 481 624 482 623 1599 623 483 623 484 622 484 622 484 622 1601 621 1601 621 1601 621 484 622 1601 621 1601 621 1601 621 1601 621 39912 8910 2137 622 95435 8933 2137 622 95434 8934 2137 622 95434 8934 2137 622 95434 8934 2137 622 95434 8933 2137 622 95434 8933 2138 621 95436 8932 2138 621 95435 8933 2138 621 95435 8933 2137 622
+#
+name: Power
 type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 04 00 00 00
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
 # 
-name: Ok
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 976 723 1776 796 925 804 897 804 897 803 897 803 897 803 897 803 922 1610 919 783 1767 807 914 86103 921 778 1769 805 916 786 914 788 913 787 914 787 914 788 913 811 890 1617 914 787 1764 832 889 86082 920 778 1768 804 916 786 914 786 914 786 914 786 914 786 915 786 915 1616 915 786 1763 809 913
+#
+name: Power
 type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 5A 00 00 00
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
 # 
-name: Up
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: 56 00 00 00
+command: 08 00 00 00
 # 
-name: Down
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 57 00 00 00
-# 
-name: Left
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 58 00 00 00
-# 
-name: Right
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 59 00 00 00
-# 
-name: Fast_fo
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 5B 00 00 00
-# 
-name: Fast_ba
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 4F 00 00 00
-# 
-name: Play_pa
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 42 00 00 00
-# 
-name: Stop
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 4E 00 00 00
-# 
-name: Mute
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 09 00 00 00
-# 
-name: Vol_up
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 02 00 00 00
-# 
-name: Vol_dn
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 03 00 00 00
-# 
-name: Ch_next
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 00 00 00 00
-# 
-name: Ch_prev
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 01 00 00 00
-# 
-name: YouTube
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 49 00 00 00
-# 
-name: PrimeVideo
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 47 00 00 00
-# 
-name: Netflix
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 4C 00 00 00
-# 
-name: GoogleAssist
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 1E 00 00 00
-# 
-name: Apps
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 0F 00 00 00
-# 
-name: Home
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 8E 00 00 00
-# 
-name: Exit
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 4D 00 00 00
